@@ -1,6 +1,6 @@
-class player{
+class Player{
   var name;
   var type;
 
-  player(this.name, this.type);
+  Player(this.name, this.type);
 }
