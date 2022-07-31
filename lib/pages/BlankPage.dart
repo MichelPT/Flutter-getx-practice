@@ -28,7 +28,9 @@ class blankPage extends StatelessWidget {
               ),
             ],
           ),
-          floatingActionButton: FloatingActionButton(onPressed: () => increment(),),
+          floatingActionButton: FloatingActionButton(onPressed:() {
+            Get.snackbar("Snackbar", "Here is the message");
+          },),
         ),
        );
   }
